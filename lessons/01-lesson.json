@@ -1,0 +1,60 @@
+{
+  "id": "intro-to-programming",
+  "title": "Introduction to Programming",
+  "description": "Discover what programming is and why we need it",
+  "order": 1,
+  "estimatedMinutes": 15,
+  "start_screen": "q1",
+  "screens": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "prompt": "What do computers understand?",
+      "choices": ["English", "Emojis", "*Binary (0s and 1s)", "Python"],
+      "end_comment": "Exactly! Computers only understand binary - just 0s and 1s."
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "prompt": "Why do we need programming languages?",
+      "choices": [
+        "To make computers faster",
+        "*To write instructions humans can understand",
+        "To make computers look pretty",
+        "To save money"
+      ],
+      "end_comment": "Right! Programming languages let us write instructions in a way that both humans and computers can work with."
+    },
+    {
+      "id": "q3",
+      "type": "dialogue",
+      "dialogue": [
+        {
+          "speaker": "student",
+          "text": "So if I write code in Python, how does the computer understand it?"
+        },
+        {
+          "speaker": "teacher",
+          "text": "Great question! The computer uses a special program called an interpreter to translate your Python code into binary instructions it can execute."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "prompt": "What translates Python code into binary?",
+      "choices": ["A compiler", "*An interpreter", "A browser", "A calculator"],
+      "end_comment": "Correct! Python uses an interpreter to translate your code line by line."
+    },
+    {
+      "id": "end",
+      "type": "end",
+      "summary": [
+        "✅ Computers only understand binary (0s and 1s)",
+        "✅ Programming languages help us write human-readable instructions",
+        "✅ Python uses an interpreter to translate code to binary",
+        "✅ You're ready to start coding!"
+      ]
+    }
+  ]
+}

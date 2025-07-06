@@ -1,0 +1,44 @@
+{
+  "id": "variables-and-data",
+  "title": "Variables and Data Types",
+  "description": "Learn about storing and working with data in programming",
+  "order": 2,
+  "estimatedMinutes": 20,
+  "start_screen": "q1",
+  "screens": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "prompt": "What is a variable in programming?",
+      "choices": [
+        "*A container that stores data",
+        "A mathematical equation",
+        "A type of loop",
+        "A programming error"
+      ],
+      "end_comment": "Perfect! A variable is like a labeled box that holds information."
+    },
+    {
+      "id": "q2",
+      "type": "info",
+      "content": "In Python, you create variables like this:|name = \"Alice\"|age = 25|is_student = True"
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "prompt": "What data type is \"Hello World\"?",
+      "choices": ["Integer", "*String", "Boolean", "Float"],
+      "end_comment": "Exactly! Text in quotes is called a string."
+    },
+    {
+      "id": "end",
+      "type": "end",
+      "summary": [
+        "✅ Variables store data values",
+        "✅ Strings hold text (in quotes)",
+        "✅ Integers hold whole numbers",
+        "✅ Booleans hold True/False values"
+      ]
+    }
+  ]
+}

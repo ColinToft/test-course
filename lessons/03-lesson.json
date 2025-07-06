@@ -1,0 +1,44 @@
+{
+  "id": "working-with-variables",
+  "title": "Working with Variables",
+  "description": "Learn how to use and modify variables in your code",
+  "order": 3,
+  "estimatedMinutes": 25,
+  "start_screen": "q1",
+  "screens": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "prompt": "Can you change the value of a variable after creating it?",
+      "choices": [
+        "*Yes, always",
+        "No, never",
+        "Only sometimes",
+        "Only on Tuesdays"
+      ],
+      "end_comment": "Yes! Variables can be updated with new values anytime."
+    },
+    {
+      "id": "q2",
+      "type": "info",
+      "content": "Here's how you update a variable:|score = 10|score = score + 5  # Now score is 15|score = 20        # Now score is 20"
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "prompt": "If x = 5 and y = 3, what is x + y?",
+      "choices": ["53", "*8", "5", "3"],
+      "end_comment": "Correct! 5 + 3 = 8. We add the numeric values."
+    },
+    {
+      "id": "end",
+      "type": "end",
+      "summary": [
+        "✅ Variables can be updated with new values",
+        "✅ You can do math with number variables",
+        "✅ Adding strings concatenates them",
+        "✅ Use descriptive variable names"
+      ]
+    }
+  ]
+}
