@@ -4,6 +4,7 @@
   "description": "A test course to verify the downloading and parsing functionality",
   "author": "Colin Toft",
   "version": "1.0.0",
+  "lessonFormatVersion": "1.0.0",
   "difficulty": "beginner",
   "tags": ["test", "programming", "fundamentals"],
   "estimatedHours": 2,
